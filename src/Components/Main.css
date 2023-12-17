@@ -1,0 +1,349 @@
+body {
+    align-self: stretch;
+}
+
+/* Home Screen */
+.HomeScreen-main {
+    width: 100%;
+    height: 755px;
+    flex-shrink: 0;
+    /* background-color: rebeccapurple; */
+}
+
+.HomeScreen-Left {
+    display: flex;
+    width: 633px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    /* margin-top: 100px; */
+
+}
+
+.HomeScreen-text1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 40% 0 0 10%;
+
+}
+
+.HomeScreen-text2 {
+    color: #FFF;
+    font-family: Figtree;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 10%;
+    line-height: 46px;
+    /* 143.75% */
+}
+
+.homeScreen-hotel {
+    color: var(--Primary, #FF5F63);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Text */
+.Text-Col-1 {
+    width: 405px;
+    color: var(--Text, #2E2E2E);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Text-Col-2 {
+    width: 739px;
+    color: var(--Text-secondary, #616161);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Text-Main {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Text-SuvaTrip {
+    color: var(--Primary, #FF5F63);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+/*    Card  */
+.Card-Main {
+    display: flex;
+    width: 1289px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px 28px;
+    flex-wrap: wrap;
+}
+
+
+.Car-parent {
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    border-radius: 12px;
+    border: 1px solid var(--divider, #D8D8D8);
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(176, 176, 176, 0.07);
+}
+
+.Car-Child {
+    width: 221px;
+    height: 165px;
+    border-radius: 20px;
+    background: rgba(0, 169, 126, 0.15);
+}
+
+.Card-Text {
+    align-self: stretch;
+    color: var(--Text, #2E2E2E);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* width: 274px;
+height: 96px */
+
+}
+
+.Line-text-1 {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 700px;
+    /* background-color: red; */
+    /* color: #00A97E; */
+    height: 66px
+}
+
+
+.Line-text-2 {
+    width: 274px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 36px
+}
+
+.Line-text-3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.List-Card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    /* Adjust the gap as needed */
+    width: 100%;
+
+}
+
+.ContactS-Main {
+    width: 100%;
+    height: 416px;
+    top: 2631px;
+    left: 182px;
+    border-radius: 20px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.ContactS-parent {
+    width: 1076px;
+    height: 416px;
+    top: 2631px;
+    left: 182px;
+    border-radius: 20px;
+    background-color: #FFEBEB;
+    text-align: center;
+    display: block;
+    justify-content: center;
+
+}
+
+.ContactS-Child {
+    width: 738px;
+    height: 289px;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    margin: 8% 11% 11% 13%;
+}
+
+.ContactS-Icons {
+    width: Hug (378px);
+    height: Hug (52px);
+    gap: 18px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Footer-Main {
+    width: 100%;
+    height: 364px;
+    flex-shrink: 0;
+    background-color: rgba(26, 26, 26, 1);
+    margin-top: 5%;
+}
+
+.Footer-content {
+    width: 306px;
+    height: 178px;
+    flex-shrink: 0;
+    /* margin-top: 10; */
+    /* margin: ; */
+    /* background-color: rgba(103, 108, 123, 1); */
+}
+
+.Footer-img {
+    width: 193.548px;
+    height: 50px;
+    flex-shrink: 0;
+    /* background-color: #fff; */
+    /* color: #fff; */
+    /* margin-top: 10%; */
+    margin: 8%;
+
+}
+
+.Car-parent-2 {
+    display: flex;
+    width: 1289px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px 28px;
+    flex-wrap: wrap;
+}
+
+
+
+.Footer-Text {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.Footer-t {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.footer-logo{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 59px;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+
+.Card-Main-2{
+    display: flex;
+    width: 1289px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 40px 28px;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+
+.Card-parent-2{
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    border-radius: 12px;
+    border: 1px solid var(--divider, #D8D8D8);
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(176, 176, 176, 0.07);
+    max-width: 300px;
+    /* Set your desired maximum width */
+    word-wrap: break-word;
+    /* margin-left: 2.px; */
+}
+
+.Card-img{
+    width: 221px;
+    height: 165px;
+    border-radius: 20px;
+    /* background: rgba(0, 169, 126, 0.15); */
+}
+
+.Card-logo{
+    display: flex;
+    width: 66px;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    margin: 20% 20% 0 35%;
+    background-color: transparent;
+    /* position: absolute; */
+    /* left: 77px; */
+    /* top: 49px; */
+}
+
+.Card-text-2{
+    align-self: stretch;
+    color: var(--Text, #2E2E2E);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 300px; */
+}
